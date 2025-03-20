@@ -1,0 +1,83 @@
+body {
+    background-color: rgb(24, 20, 37);
+    font-family: "Pixelify Sans", serif;
+}
+
+.logo {
+    color: white;
+    text-align: center;
+    font-size: larger;
+}
+
+.bio {
+    position: absolute;
+    transform: translate(-50%);
+    background-color: rgba(0, 0, 0, 0.8);
+    padding: 0.8em;
+    top: 20vw;
+    left: 50vw;
+    width: 20%;
+    background-size: 75% 50%;
+}
+.bio a {
+    padding-right: 5px;
+}
+
+.bio_img {
+    position: absolute;
+    top: 1.2em;
+    left: 0em;
+    height: 1.2em;
+}
+
+.bio a img {
+    background-color: transparent;
+    width: 2em;
+    height: auto;
+    object-fit:cover;
+    object-position:50% 50%;
+}
+
+.skills {
+    background: url("../assets/skill_bg.png");
+    position: absolute;
+    background-position:center;
+    background-repeat: horizontal;
+    background-size: contain;
+    height: 150px;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center; /* Centers text vertically */
+    align-items: center;
+    position: absolute;
+    
+    text-align: center;
+    
+    bottom: 0px;
+    left: 50%;
+    transform: translate(-50%); 
+
+    
+}
+
+.skills a {
+    color: brown;
+}
+
+.contact_me {
+   
+
+
+
+
+    background-color: rgba(0, 0, 0, 0.95);
+    border-style: solid none none none;
+    border-width: 0.07em;
+    border-color: rgb(255, 255, 255);
+    padding: 2em;
+    text-align: center;
+    
+}
+
+

@@ -1,0 +1,51 @@
+body {
+    background-color: rgb(24, 20, 37);
+    font-family: 'Kanit', sans-serif;
+}
+
+
+.skill_section {
+    color: white;
+    padding: 2em;
+    position: relative;
+    margin: auto;
+    text-align: center;
+    color: rgba(255, 255, 255, 0,8);
+
+}
+
+.skill_col {
+    width: 20em;
+    display: inline-block;
+    vertical-align: top;
+    text-align: left;
+    position: relative;
+    margin: 0 1em 0 1em;
+}
+
+.skill_block {
+    margin: 1em 0 1em 0;
+    background-color: rgba(0, 0, 0, 0.9);
+    border-style: solid;
+    border-width: 0.07em;
+    border-color: rgb(255, 255, 255);
+    border-radius: 0.3em;
+    padding: 0.5em;
+
+}
+
+.Title {
+    color: white;
+    font-size: 150%;
+    text-align: center;
+}
+
+.contact_me {
+    background-color: rgba(0, 0, 0, 0.95);
+    border-style: solid none none none;
+    border-width: 0.07em;
+    border-color: rgb(255, 255, 255);
+
+    padding: 2em;
+    text-align: center;
+}
